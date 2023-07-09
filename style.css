@@ -9,6 +9,10 @@ body {
   font-family: 'Noto Sans Mono', monospace;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .homesection {
   display: flex;
   position: relative;
@@ -16,8 +20,7 @@ body {
   min-height: 100%;
 }
 
-.section {
-  box-sizing: border-box;
+.halfhomesection {
   padding-top: 120px;
   padding-bottom: 60px;
   width: 100%;
@@ -46,7 +49,6 @@ body {
 
 .sectionwrapper {
   display: flex;
-  box-sizing: border-box;
   height: 40vh;
   max-height: 100vh;
   max-width: 670px;
@@ -92,7 +94,6 @@ body {
   font-size: 24px;
   line-height: 2.5;
   display: inline;
-  box-sizing: border-box;
 }
 
 .leftsectiontitlefirstline {
@@ -149,3 +150,107 @@ body {
   background-color: #fcfcfd;
   color:#363738;
 }
+
+.navbarcontainer {
+  height: 50px;
+  max-width: 1340px;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: flex;
+  position: absolute;
+  top: 70px;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.helloworld {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f1f2f3;
+  margin-top: 0;
+  display: block;
+}
+
+.sectioncontainer {
+  max-width: 1340px;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.helloworldsectiontitle {
+  display: flex;
+  align-items: center;
+}
+
+.sectiontitlesymbol {
+  padding: 10px 0px 10px 20px ;
+  font-size: 36px;
+  color: #28eea7;
+  font-weight: 900;
+  text-align: right;
+}
+
+.sectiontitletext {
+  color: #363738;
+  text-align: left;
+  line-height: 1.4;
+  font-size: 24px;
+  font-weight: 900;
+  padding: 10px 20px 10px 20px;
+}
+
+.titleiconscontainer {
+  grid-column-gap: 10px;
+  margin-left: auto;
+  display: flex;
+}
+
+.circleicon {
+  width: 24px;
+  height: 24px;
+  border-radius: 20px;
+}
+
+.black {
+  background-color: #363738;
+}
+
+.white {
+  background-color: #dcdee1;
+}
+
+.green {
+  background-color: #28eea7;
+}
+
+.sectioncontentwrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.youtubeframe {
+  object-fit: fill;
+  border: 14.4px solid #28eea7;
+  border-radius: 20px;
+  width: 100%;
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg");
+  background-position: 50%;
+  background-size: cover;
+  padding-top: 56.17021276595745%;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
