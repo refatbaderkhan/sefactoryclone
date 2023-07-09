@@ -481,4 +481,44 @@ body {
   line-height: 1.4;
 }
 
+.recruitmentdescription {
+  align-self: stretch;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.list {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+.contactus {
+  text-align: right;
+  align-self: stretch;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  font-weight: 800;
+}
+
+.lowerrecruitmentcontainer {
+  display: flex;
+  grid-column-gap: 20px;
+  flex: 1;
+  justify-content: flex-end;
+  padding: 20px 40px;
+  border-radius: 20px;
+  align-items: center;
+  align-self: stretch;
+}
+
+.sublower {
+  font-family: Noto Sans, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+
+
 
