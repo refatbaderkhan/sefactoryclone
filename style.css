@@ -519,6 +519,12 @@ body {
   line-height: 1.4;
 }
 
-
+.testimonialsslide{
+  display: flex;
+  padding: 20px 20px 20px 64px;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
