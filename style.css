@@ -194,7 +194,7 @@ body {
 
 .sectiontitlesymbol {
   padding: 10px 0px 10px 20px ;
-  font-size: 36px;
+  font-size: 33px;
   color: #28eea7;
   font-weight: 900;
   text-align: right;
@@ -233,8 +233,16 @@ body {
   background-color: #dcdee1;
 }
 
+.hawkesbluefont {
+  color: #dcdee1;
+}
+
 .green {
   background-color: #28eea7;
+}
+
+.greenfont {
+  color: #28eea7;
 }
 
 .sectioncontentwrapper {
@@ -335,4 +343,27 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
+}
+
+.grey {
+  background-color: #a5a6a9;
+}
+
+.programstab {
+  align-self: stretch;
+  position: relative;
+}
+
+.programsnavigation{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0px;
+}
+
+.tab {
+  border-radius: 10px 10px 0 0;
+  padding: 20px 50px;
+  font-weight: 900;
+  vertical-align: top;
+  text-align: left;
 }
