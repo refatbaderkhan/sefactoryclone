@@ -68,7 +68,7 @@ body {
   padding-right: 70px;
 }
 
-.sectiontitle {
+.homesectiontitle {
   text-transform: uppercase;
   text-align: right;
   margin-top: 0;
@@ -166,12 +166,15 @@ body {
   right: 0%;
 }
 
-.helloworld {
+.section {
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: #f1f2f3;
   margin-top: 0;
   display: block;
+}
+
+.aliceblue {
+  background-color: #f1f2f3;
 }
 
 .sectioncontainer {
@@ -184,7 +187,7 @@ body {
   margin-right: auto;
 }
 
-.helloworldsectiontitle {
+.sectiontitle {
   display: flex;
   align-items: center;
 }
@@ -222,7 +225,7 @@ body {
   background-color: #363738;
 }
 
-.white {
+.hawkesblue {
   background-color: #dcdee1;
 }
 
