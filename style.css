@@ -545,8 +545,12 @@ body {
   line-height: 1.4;
 }
 
-.ghostwhite {
+.ghostwhitefont {
   color: #fcfcfd;
+}
+
+.ghostwhite {
+  background-color: #fcfcfd;
 }
 
 .testiomonialinfo {
@@ -577,4 +581,19 @@ body {
 .testimonialbigimage {
   width: 400px;
   height: 400px;
+}
+
+.faqcollection {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 15px;
+}
+
+.faqitem {
+  flex: 1;
+  border-radius: 10px;
+  padding: 24.8px 44.8px 26.8px 28.8px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.4;
 }
