@@ -527,4 +527,54 @@ body {
   align-items: center;
 }
 
+.testimonialcontent{
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 40px;
+  display: flex;
+}
 
+.quote {
+  vertical-align: middle;
+  margin-bottom: 24px;
+}
+
+.testimonialquote {
+  margin-bottom: 32px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.ghostwhite {
+  color: #fcfcfd;
+}
+
+.testiomonialinfo {
+  display: flex;
+  align-items: center;
+}
+
+.testimonialimage {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testiomonialcontact {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 8px;
+  font-weight: 900;
+}
+
+.testiomonialname{
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.testimonialbigimage {
+  width: 400px;
+  height: 400px;
+}
