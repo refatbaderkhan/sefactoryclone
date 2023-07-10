@@ -652,3 +652,30 @@ body {
   font-weight: 400;
   line-height: 1.5;
 }
+
+.logoscontainer {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 16px;
+  justify-content:space-between;
+  align-items:flex-start;
+  justify-items:flex-start;
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+
+.logosline {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
+  grid-column-gap: 16px;
+  max-width: 100%;
+}
+
+.partner {
+  margin: 0px 15px 10px 15px;
+  height: 80px;
+  max-width: 16.6%;
+  align-self: flex-start;
+}
