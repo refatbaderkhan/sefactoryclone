@@ -349,6 +349,10 @@ body {
   background-color: #a5a6a9;
 }
 
+.greyfont {
+  color: #a5a6a9;
+}
+
 .programstab {
   align-self: stretch;
   position: relative;
@@ -607,4 +611,44 @@ body {
   align-self: stretch;
   font-weight: 800;
   padding: 15px 20px;
+}
+
+.contactussectioncontentwrapper {
+  height: auto;
+  grid-column-gap: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.contactuscontainer {
+  padding: 30px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-self: stretch;
+  grid-row-gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.containertitle {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.map {
+  height: 240px;
+  width: 240px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.containerfooter {
+  margin-top: auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
 }
