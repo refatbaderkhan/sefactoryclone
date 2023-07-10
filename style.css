@@ -679,3 +679,47 @@ body {
   max-width: 16.6%;
   align-self: flex-start;
 }
+
+.newslettersection {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+}
+
+.mainsubscribetext {
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.subsubsribetext {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.subscribebox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center ;
+}
+
+.emailsubscribe {
+  height: 45px;
+  margin-bottom: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #333;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
+.emailsubmit {
+  height: 45px;
+  font-weight: 800;
+  padding: 15px 20px 15px 20px;
+}
